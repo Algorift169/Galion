@@ -2,7 +2,7 @@
 import * as React from 'react';
 import { useState, useEffect, useRef } from 'react';
 import './App.css';
-//import wallpaper from './assets/images/walpaper.png';
+import wallpaper from './assets/images/walpaper.png';
 
 // Calendar Component
 interface CalendarProps {
@@ -303,7 +303,7 @@ const App: React.FC = () => {
   return (
     <div 
       className="galion-os" 
-      //style={{ backgroundImage: `url(${wallpaper})` }}
+      style={{ backgroundImage: `url(${wallpaper})` }}
     >
       <TopBar 
         onDateClick={handleDateClick} 
